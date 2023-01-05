@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import querystring from "querystring";
 import styles from "../../styles/Home.module.css";
-import { getNumber, getRandomInt } from "../utils";
+import { getNumber, getRandomInt } from "../../utils";
 import { useRouter } from "next/router";
 
 const Duration = {
