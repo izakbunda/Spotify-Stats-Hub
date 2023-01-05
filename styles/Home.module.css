@@ -1,3 +1,39 @@
+.main {
+  padding: 5rem;
+  flex: 1;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.footer {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #eaeaea;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding-top: 13px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: #1db954;
+}
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -19,8 +55,6 @@
 }
 
 .title {
-  margin: 0 0 1rem;
-  line-height: 1.15;
   font-size: 3.6rem;
 }
 
@@ -33,22 +67,181 @@
   text-align: center;
 }
 
-
 .description {
-  line-height: 1.5;
+  /* line-height: 1.5; */
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  margin: 0.5rem;
+}
+
+.description2 {
+  /* line-height: 1.5; */
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  margin: 0.5rem;
+  text-align: left;
+}
+.grid3 {
+  margin-top: 1.5rem;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid3 h2 {
+  /* padding-bottom: 1rem; */
+  font-size: 3rem;
+  text-align: center;
+}
+.grid3 h3 {
+  padding-bottom: 1rem;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .grid {
-  display: flex;
+  /* display: flex; */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-
-  max-width: 800px;
-  margin-top: 3rem;
+}
+.grid h2 {
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  text-align: center;
+}
+.grid h3 {
+  /* padding-bottom: 1rem; */
+  font-size: 1.5rem;
+  text-align: center;
 }
 
+.back {
+  margin: 0 auto;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: #000000;
+  color: white;
+}
+.back:hover,
+.back:focus,
+.back:active {
+  color: #1db954;
+  border-color: #000000;
+}
+
+.back2 h1 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.back2 {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: #000000;
+  position: fixed;
+  /* left: 0; */
+  bottom: 4rem;
+}
+
+.back2 h1 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+.back2:hover,
+.back2:focus,
+.back2:active {
+  color: #1db954;
+  border-color: #000000;
+}
+
+.select3 {
+  margin-right: 0.6rem;
+
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 40px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: #1db954;
+  cursor: pointer;
+}
+.select3:hover,
+.select3:focus,
+.select3.back:hover {
+  color: #ffffff;
+  border-color: #1db954;
+}
+
+.select3 h1 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.select2 {
+  margin-right: 0.6rem;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 100px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: #1db954;
+  cursor: pointer;
+}
+.select2:hover,
+.select2:focus,
+.select2:active {
+  color: #ffffff;
+  border-color: #1db954;
+}
+
+.select2 h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.select {
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: #1db954;
+  cursor: pointer;
+}
+.select:hover,
+.select:focus,
+.select:active {
+  color: #ffffff;
+  border-color: #1db954;
+}
+
+.select h1 {
+  font-size: 2rem;
+  text-align: center;
+}
 .card {
   margin: 1rem;
   flex-basis: 45%;
@@ -56,20 +249,28 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
+  /* border: 1px solid #eaeaea; */
+  border-radius: 40px;
   transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: #1db954;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #ffffff;
+  border-color: #1db954;
 }
 
 .card h3 {
-  margin: 0 0 1rem 0;
+  margin: 0 0 0 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card h2 {
+  margin: 1 1rem;
+  padding: 1rem;
   font-size: 1.5rem;
 }
 
@@ -79,8 +280,93 @@
   line-height: 1.5;
 }
 
+.grid2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  cursor: pointer;
+}
+.btn h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.main3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main2 {
+  /* min-height: 100vh; */
+  /* flex: 1; */
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.column2 {
+  height: 70vh;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 2rem;
+}
+.column2 h1 {
+  margin-bottom: 1.3rem;
+  padding: 5px;
+}
+.column {
+  width: 50%;
+  height: 70vh;
+  text-align: center;
+  padding: 5px;
+}
+
+.column h1 {
+  margin-bottom: 1.3rem;
+  padding: 5px;
+}
+
+.topSongs {
+  text-align: left;
+  max-height: 65vh;
+  overflow-y: overlay;
+  /* overflow-x: hidden; */
+  /* background-color: #1DB954;  */
+  border: 2px solid #eaeaea;
+  border-radius: 20px;
+  padding: 20px;
+}
+.topSongs2 {
+  text-align: left;
+  /* overflow-x: hidden; */
+  /* background-color: #1db954; */
+  border: 2px solid #eaeaea;
+  border-radius: 20px;
+  padding: 20px;
+}
+
 .logo {
   height: 1em;
+}
+
+.listItem {
+  display: block;
+  font-size: 1.3rem;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+  margin-right: 0;
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {
