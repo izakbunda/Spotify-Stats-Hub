@@ -33,17 +33,17 @@ export default function songsOrArtists() {
         </p>
         <div className={styles.main3}>
           <div className={`${styles.grid2} ${styles.select3}`}>
-            <a href="https://huangdarren1106.github.io/">
+            <a href="https://github.com/izakbunda/Spotify-Stats-Hub">
               <h1>GitHub Source Code</h1>
             </a>
           </div>
           <div className={`${styles.grid2} ${styles.select3}`}>
-            <a href="https://huangdarren1106.github.io/">
+            <a href="https://developer.spotify.com/documentation/">
               <h1>Spotify API Documentation</h1>
             </a>
           </div>
           <div className={`${styles.grid2} ${styles.select3}`}>
-            <a href="https://huangdarren1106.github.io/">
+            <a href="https://www.instagram.com/izakbunda/">
               <h1>Instagram lol</h1>
             </a>
           </div>
