@@ -27,10 +27,6 @@
               <h1>Spotify API Documentation</h1>
             </a>
           </div>
-          <div className={`${styles.grid2} ${styles.select3}`}>
-            <a href="https://huangdarren1106.github.io/">
-              <h1>Instagram lol</h1>
-            </a>
-          </div>
+          
         </div>
       </div>
