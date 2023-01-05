@@ -13,20 +13,13 @@
           Spotify Access Token.
         </p>
         <p className={styles.description2}>
-          For more techincal details, please checkout the source code in my
-          GitHub and Spotify API Documentation linked below:
+          For more techincal details, please checkout the Spotify API Documentation linked below:
         </p>
         <div className={styles.main3}>
           <div className={`${styles.grid2} ${styles.select3}`}>
-            <a href="https://huangdarren1106.github.io/">
-              <h1>GitHub Source Code</h1>
-            </a>
-          </div>
-          <div className={`${styles.grid2} ${styles.select3}`}>
-            <a href="https://huangdarren1106.github.io/">
+            <a href="https://developer.spotify.com/documentation/">
               <h1>Spotify API Documentation</h1>
             </a>
           </div>
-          
         </div>
       </div>
