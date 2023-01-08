@@ -45,5 +45,6 @@ Users can select from three options. They can either view their listening habits
 
 ## Step 3: About
 In the footer of all pages is a button to the About page of this website. In here users can learn more about the process of creating this page and the Spotify API.
+<img width="1356" alt="Screen Shot 2023-01-08 at 2 03 10 AM" src="https://user-images.githubusercontent.com/98503066/211190496-f7a3363e-bd48-441a-8fec-7573533c201d.png">
 
 
