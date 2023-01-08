@@ -12,14 +12,6 @@
           implemented React Redux and also used localStorage to persist the
           Spotify Access Token.
         </p>
-        <p className={styles.description2}>
-          For more techincal details, please checkout the Spotify API Documentation linked below:
-        </p>
-        <div className={styles.main3}>
-          <div className={`${styles.grid2} ${styles.select3}`}>
-            <a href="https://developer.spotify.com/documentation/">
-              <h1>Spotify API Documentation</h1>
-            </a>
           </div>
         </div>
       </div>
